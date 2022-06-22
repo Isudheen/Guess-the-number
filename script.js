@@ -16,7 +16,7 @@ checkButton.addEventListener('click', function () {
   const guess = Number(guessNumber.value);
 
   if (!guess) {
-    displayMessage.textContent = 'Please input a number!';
+    displayMessage.textContent = 'Please input a number!!';
   } else if (guess === secretNumber) {
     displayMessage.textContent = 'Exactly!';
     body.style.backgroundImage = 'linear-gradient(red, yellow)';
